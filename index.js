@@ -46,7 +46,7 @@ function calculatesFarePrice(d1,d2){
            else if((d2-d1)*264 < 2000){
               return ((((d2-d1)*264)-400)*0.02);
            }
-           else if(((d2-d1)*264) <= 2500){
+           else if(((d2-d1)*264)<= 2500){
               return 25;
            }
            else if((d2-d1)*264 > 2500){
